@@ -26,6 +26,7 @@ public class base {
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiAutomator2");
 		cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT,"10");
 		System.out.println("hi");
+		System.out.println("hiii developer");
 //		if(device.equals("Emulator")) {
 //		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "AnkitaEM");
 //		}

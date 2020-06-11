@@ -22,6 +22,7 @@ public class basics2ForPO extends base{
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		//driver.findElementByXPath("//android.widget.TextView[@text='Preference']").click();
 		System.out.println("hi");
+		System.out.println("hiii developer");
 		homePage hp=new homePage(driver);
 		hp.click_link_preference();
 		preferencesPage pp=new preferencesPage(driver);
